@@ -1,12 +1,17 @@
 {
   "name": "orestes",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Orestes Carracedo <orestes.ca@gmail.com> (https://orestes.io/)",
-  "license": "MIT"
+  "author": "Orestes Carracedo <orestes@orestes.io> (https://orestes.io)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
 }
