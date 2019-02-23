@@ -11,9 +11,9 @@ let options = {
 
 // Text + chalk definitions
 let data = {
-    'name': chalk.white('Orestes Carracedo /'),
+    'name': chalk.white('Orestes Carracedo'),
     'handle': chalk.cyan('orestes'),
-    'work': chalk.white('Co-founder, software Engineer @ Lighthorse Consulting'),
+    'work': chalk.white('Co-founder, Software Engineer @ Lighthorse Consulting'),
     'twitter': chalk.cyan('https://twitter.com/orestesca'),
     'linkedin': chalk.cyan('https://linkedin.com/in/orestesca'),
     'github': chalk.cyan('https://github.com/orestes'),
@@ -29,7 +29,7 @@ let data = {
 };
 
 const newline = '\n';
-const heading = `${data.name} ${data.handle}`;
+const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
